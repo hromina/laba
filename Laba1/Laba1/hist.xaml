@@ -1,0 +1,18 @@
+﻿<Window x:Class="Laba1.hist"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:wfi="clr-namespace:System.Windows.Forms.Integration;assembly=WindowsFormsIntegration"
+xmlns:wf="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"
+xmlns:dvc="clr-namespace:System.Windows.Forms.DataVisualization.Charting;assembly=System.Windows.Forms.DataVisualization"
+        xmlns:local="clr-namespace:Laba1"
+        mc:Ignorable="d"
+        Title="hist" Height="362.865" Width="381.167">
+    <Grid>
+        <WindowsFormsHost>
+            <dvc:Chart x:Name="chart" />
+        </WindowsFormsHost>
+
+    </Grid>
+</Window>
